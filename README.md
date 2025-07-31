@@ -34,7 +34,7 @@ tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name)
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 model_name = LLAMA-2-7b_DIRECTORY
-adapters_name = "vaishali/"
+adapters_name = "checkpoints/"
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     load_in_8bit=True,
