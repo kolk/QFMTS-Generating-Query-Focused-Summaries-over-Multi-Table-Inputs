@@ -3,7 +3,7 @@
 **Datasets**
   - Download the dataset at [QFMTS dataset](https://huggingface.co/datasets/vaishali/qfmts_query_focused_multitab_summarization)
     
-Alternatively, load the BanglaTabQA dataset from huggingface hub:
+Alternatively, load the dataset from huggingface hub:
 ```
 from datasets import load_dataset
 qfmts_dataset = load_dataset("vaishali/qfmts_query_focused_multitab_summarization")
